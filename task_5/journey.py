@@ -1,0 +1,16 @@
+contries = ['Франция','Турция','Англия','Германия', 'Россия']
+print(contries)
+
+contry = sorted(contries)
+print(contry)
+print(contries)
+contry2 = sorted(contries, reverse=True)
+print(contry2)
+contries.reverse()
+print(contries)
+contries.reverse()
+print(contries)
+contries.sort()
+print(contries)
+contries.sort(reverse=True)
+print(contries)
